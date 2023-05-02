@@ -1,7 +1,10 @@
 # komo-docker
 komo 工具docker 化使用
-* clone komo到komo目录下
-* clone Dockerfile文件到本地
+* clone [komo](https://github.com/komomon/Komo)到komo目录下
+```
+git clone https://github.com/komomon/Komo.git
+```
+* clone Dockerfile文件到本地Komo目录
 * 本地构建
 ```
 docker build -t komo-docker .
